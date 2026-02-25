@@ -1,7 +1,14 @@
+@font-face {
+    font-family:"Roboto Condensed";
+    src:url(https://file.garden/aUYIWVAKvQxCBY-_/fonts/roboto-2011/Roboto-Condensed.ttf);
+}
 #vmlist, #vmview {
     background-image: url(https://file.garden/aUYIWVAKvQxCBY-_/images/greensplatter.png);
     background-size: 100vw 100vh;
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat no-repeat;
+}
+h5.card-body {
+    font-family: "Roboto Condensed", Roboto, sans-serif
 }
