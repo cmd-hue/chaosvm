@@ -11,6 +11,10 @@
 		"dick": {
 			"languageName": "Switched",
 			"flag": "\ufffd"
+		},
+		"wizevm": {
+			"languageName": "WizeVM",
+			"flag": "😬"
 		}
 	},
 	"defaultLanguage": "en-us"
