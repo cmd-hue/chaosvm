@@ -9,6 +9,6 @@
     height: 100vh;
     background-repeat: no-repeat no-repeat;
 }
-h5.card-body {
-    font-family: "Roboto Condensed", Roboto, sans-serif !important;
+h5 {
+    font-family: "Roboto Condensed" !important;
 }
