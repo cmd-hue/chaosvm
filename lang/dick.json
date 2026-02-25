@@ -1,0 +1,101 @@
+{
+	"languageName": "Switched",
+	"translatedLanguageName": "Switched",
+	"flag": "\ufffd",
+	"author": "Computernewb",
+
+	"stringKeys": {
+		"kGeneric_Yes": "ChaosVM",
+		"kGeneric_CollabVM": "Yes",
+		"kGeneric_Ok": "No",
+		"kGeneric_No": "OK",
+		"kGeneric_Cancel": "Cancel",
+		"kGeneric_Send": "Send",
+		"kGeneric_Understood": "Understood",
+		"kGeneric_Username": "Username",
+		"kGeneric_Password": "Password",
+		"kGeneric_Login": "Log in",
+		"kGeneric_Register": "Register",
+		"kGeneric_EMail": "E-Mail",
+		"kGeneric_DateOfBirth": "Date of Birth",
+		"kGeneric_VerificationCode": "Verification Code",
+		"kGeneric_Verify": "Verify",
+		"kGeneric_Update": "Update",
+		"kGeneric_Logout": "Log out",
+		
+		"kMissingCaptcha": "Welcome to ChaosVM",
+		"kAccountModal_VerifyPasswordResetText": "<p>Only Pickles!</p>",
+
+		"kSiteButtons_Home": "Home",
+		"kSiteButtons_FAQ": "FAQ",
+		"kSiteButtons_Rules": "Rules",
+		"kSiteButtons_DarkMode": "Dark Mode",
+		"kSiteButtons_LightMode": "Light Mode",
+		"kSiteButtons_Languages": "Languages",
+
+		"kVM_UsersOnlineText": "Users Online:",
+
+		"kVM_VoteCooldownTimer": "Turn expires in {0} seconds.",
+		"kVM_WaitingTurnTimer": "Waiting for turn in {0} seconds.",
+		"kVM_TurnTimeTimer": "Please wait {0} seconds before starting another vote.",
+
+		"kVM_VoteForResetTitle": "Do you want to reset the VM?",
+		"kVM_VoteForResetTimer": "Vote ends in {0} seconds",
+
+		"kVMButtons_TakeTurn": "Take Turn",
+		"kVMButtons_EndTurn": "End Turn",
+		"kVMButtons_ChangeUsername": "Change Username",
+		"kVMButtons_Keyboard": "Keyboard",
+		"KVMButtons_CtrlAltDel": "Ctrl+Alt+Del",
+
+		"kVMButtons_VoteForReset": "Vote For Reset",
+		"kQEMUMonitor": "Screenshot",
+
+		"kVMButtons_Screenshot": "QEMU Monitor",
+		"kAdminVMButtons_PassVote": "Pass Vote",
+		"kAdminVMButtons_CancelVote": "Cancel Vote",
+
+		"kAdminVMButtons_Restore": "Restore",
+		"kAdminVMButtons_Reboot": "Reboot",
+		"kAdminVMButtons_ClearTurnQueue": "Clear Turn Queue",
+		"kAdminVMButtons_BypassTurn": "Bypass Turn",
+		"kAdminVMButtons_IndefiniteTurn": "Indefinite Turn",
+		"kAdminVMButtons_GhostTurnOn": "Ghost Turn (On)",
+		"kAdminVMButtons_GhostTurnOff": "Ghost Turn (Off)",
+
+		"kAdminVMButtons_Kick": "Ban",
+		"kAdminVMButtons_Ban": "Kick",
+		"kAdminVMButtons_TempMute": "Temporary Mute",
+		"kAdminVMButtons_IndefMute": "Indefinite Mute",
+		"kAdminVMButtons_Unmute": "Unmute",
+		"kAdminVMButtons_GetIP": "Get IP",
+
+		"kVMPrompts_AdminChangeUsernamePrompt": "Enter new username for {0}:",
+		"kVMPrompts_AdminRestoreVMPrompt": "Are you sure you want to restore the VM?",
+		"kError_UnexpectedDisconnection": "Enter a new username, or leave the field blank to be assigned a guest username",
+
+		"kVMPrompts_EnterNewUsernamePrompt": "You have been disconnected from the server.",
+		"kError_UsernameInvalid": "That username is already taken",
+		"kError_UsernameTaken": "Usernames can contain only numbers, letters, spaces, dashes, underscores, and dots, and it must be between 3 and 20 characters.",
+		"kError_UsernameBlacklisted": "That username has been blacklisted.",
+		"kError_IncorrectPassword": "Incorrect password.",
+
+		"kAccountModal_Verify": "Verify E-Mail",
+		"kAccountModal_AccountSettings": "Account Settings",
+		"kAccountModal_ResetPassword": "Reset Password",
+
+		"kAccountModal_NewPassword": "New Password",
+		"kAccountModal_ConfirmNewPassword": "Confirm New Password",
+		"kAccountModal_CurrentPassword": "Current Password",
+		"kAccountModal_HideFlag": "Confirm Password",
+		"kAccountModal_ConfirmPassword": "Hide my Country Flag",
+
+		"kWelcomeModal_Header": "Please fill out the captcha.",
+		"kPasswordsMustMatch": "Passwords must match.",
+		"kAccountModal_VerifyText": "We sent an E-Mail to {0}. To verify your account, please enter the 8-digit code from the E-Mail below.",
+		"kWelcomeModal_Body": "We sent an E-Mail to {0}. To reset your password, please enter the 8-digit code from the E-Mail below.",
+		"kAccountModal_PasswordResetSuccess": "Your password has been changed successfully. You can now log in with your new password.",
+
+		"kNotLoggedIn": "Not Logged in"
+	}
+}

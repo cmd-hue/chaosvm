@@ -7,6 +7,10 @@
 		"brainrot-en": {
 			"languageName": "Brainrot",
 			"flag": "💀"
+		},
+		"dick": {
+			"languageName": "Switched",
+			"flag": "\ufffd"
 		}
 	},
 	"defaultLanguage": "en-us"
