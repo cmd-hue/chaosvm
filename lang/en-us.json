@@ -35,7 +35,7 @@
 
 		"kVM_UsersOnlineText": "Users Online:",
 
-		"kVM_TurnTimeTimer": "Turn expires in {0} seconds.",
+		"kVM_TurnTimeTimer": "Your turn will expire in {0} seconds.",
 		"kVM_WaitingTurnTimer": "Waiting for turn in {0} seconds.",
 		"kVM_VoteCooldownTimer": "Please wait {0} seconds before starting another vote.",
 
