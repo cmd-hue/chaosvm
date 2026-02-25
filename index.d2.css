@@ -1,6 +1,5 @@
-div#vmlist {
+#vmlist, #vmview {
     background-image: url(https://file.garden/aUYIWVAKvQxCBY-_/images/greensplatter.png);
-    width: 100vw;
-    height: 100vh;
     background-size: 100vw 100vh;
+    background-repeat: no-repeat no-repeat;
 }
