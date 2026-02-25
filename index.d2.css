@@ -10,5 +10,5 @@
     background-repeat: no-repeat no-repeat;
 }
 h5.card-body {
-    font-family: "Roboto Condensed", Roboto, sans-serif
+    font-family: "Roboto Condensed", Roboto, sans-serif !important;
 }
