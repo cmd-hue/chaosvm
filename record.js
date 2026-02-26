@@ -50,7 +50,7 @@ var videovm = function() {
         return;
     }
 
-    const filename = vm_recording;
+    const filename = "vm_recording";
     if (!filename) return;
 
     if (window._outCanvas) {
