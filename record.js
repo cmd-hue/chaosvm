@@ -27,7 +27,6 @@ var screenshotvm = function() {
 var videovm = function() {
     if (window.canvasRecorder) {
         cancelAnimationFrame(window._canvasRAF);
-        clearInterval(window._frameInterval);
 
         if (window.canvasRecorder.state !== "inactive") {
             window.canvasRecorder.stop();
@@ -51,7 +50,6 @@ var videovm = function() {
     }
 
     const filename = "vm_recording";
-    if (!filename) return;
 
     if (window._outCanvas) {
         window._outCanvas.remove();
@@ -64,37 +62,33 @@ var videovm = function() {
 
     const ctx = outCanvas.getContext("2d");
 
-    const stream = outCanvas.captureStream(0); // manual frame control
-    const track = stream.getVideoTracks()[0];
-
     const FPS = 30;
     const FRAME_TIME = 1000 / FPS;
+    let lastTime = 0;
 
-    const drawFrame = () => {
-        if (outCanvas.width !== canvas.width || outCanvas.height !== canvas.height) {
-            outCanvas.width = canvas.width;
-            outCanvas.height = canvas.height;
+    const stream = outCanvas.captureStream(0);
+    const track = stream.getVideoTracks()[0];
+
+    const drawFrame = (time) => {
+        if (time - lastTime >= FRAME_TIME) {
+            lastTime = time;
+
+            if (outCanvas.width !== canvas.width || outCanvas.height !== canvas.height) {
+                outCanvas.width = canvas.width;
+                outCanvas.height = canvas.height;
+            }
+
+            ctx.drawImage(canvas, 0, 0);
+
+            if (track.requestFrame) {
+                track.requestFrame();
+            }
         }
 
-        ctx.drawImage(canvas, 0, 0);
-
-        // 🔥 force frame into recorder
-        if (track.requestFrame) {
-            track.requestFrame();
-        }
+        window._canvasRAF = requestAnimationFrame(drawFrame);
     };
 
-    // run visual sync (smooth updates)
-    const loop = () => {
-        drawFrame();
-        window._canvasRAF = requestAnimationFrame(loop);
-    };
-    loop();
-
-    // force consistent FPS timing
-    window._frameInterval = setInterval(() => {
-        drawFrame();
-    }, FRAME_TIME);
+    window._canvasRAF = requestAnimationFrame(drawFrame);
 
     const chunks = [];
     const recorder = new MediaRecorder(stream, {
@@ -106,8 +100,6 @@ var videovm = function() {
     };
 
     recorder.onstop = () => {
-        clearInterval(window._frameInterval);
-
         const blob = new Blob(chunks, { type: "video/webm" });
         const url = URL.createObjectURL(blob);
 
