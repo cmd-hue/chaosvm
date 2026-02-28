@@ -15791,10 +15791,14 @@ aE.takeTurnBtn.addEventListener("click", () => {
 }
 ),
 aE.screenshotButton.addEventListener("click", () => {
-    if (aq && aq.canvas) {
-        const dataUrl = aq.canvas.toDataURL("image/png");
-        open(dataUrl, "_blank");
-    }
+    if (!aq || !aq.canvas) return;
+
+    const dataUrl = aq.canvas.toDataURL("image/png");
+
+    const a = document.createElement("a");
+    a.href = dataUrl;
+    a.download = "screenshot.png";
+    a.click();
 }),
 aE.ctrlAltDelBtn.addEventListener("click", () => {
     aq && (aq?.key(65507, !0),
