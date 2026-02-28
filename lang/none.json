@@ -1,0 +1,101 @@
+{
+	"languageName": "LanguageName",
+	"translatedLanguageName": "translatedLanguageName",
+	"flag": "flag",
+	"author": "author",
+
+	"stringKeys": {
+		"kGeneric_CollabVM": "kGeneric_CollabVM",
+		"kGeneric_Yes": "kGeneric_Yes",
+		"kGeneric_No": "kGeneric_No",
+		"kGeneric_Ok": "kGeneric_Ok",
+		"kGeneric_Cancel": "kGeneric_Cancel",
+		"kGeneric_Send": "kGeneric_Send",
+		"kGeneric_Understood": "kGeneric_Understood",
+		"kGeneric_Username": "kGeneric_Username",
+		"kGeneric_Password": "kGeneric_Password",
+		"kGeneric_Login": "kGeneric_Login",
+		"kGeneric_Register": "kGeneric_",
+		"kGeneric_EMail": "kGeneric_E-Mail",
+		"kGeneric_DateOfBirth": "kGeneric_Date of Birth",
+		"kGeneric_VerificationCode": "kGeneric_Verification Code",
+		"kGeneric_Verify": "kGeneric_Verify",
+		"kGeneric_Update": "kGeneric_Update",
+		"kGeneric_Logout": "kGeneric_Log out",
+		
+		"kWelcomeModal_Header": "kWelcomeModal_Header",
+		"kWelcomeModal_Body": "kWelcomeModal_Body",
+
+		"kSiteButtons_Home": "kSiteButtons_Home",
+		"kSiteButtons_FAQ": "kSiteButtons_FAQ",
+		"kSiteButtons_Rules": "kSiteButtons_Rules",
+		"kSiteButtons_DarkMode": "kSiteButtons_Dark Mode",
+		"kSiteButtons_LightMode": "kSiteButtons_Light Mode",
+		"kSiteButtons_Languages": "kSiteButtons_Languages",
+
+		"kVM_UsersOnlineText": "kVM_UsersOnlineText",
+
+		"kVM_TurnTimeTimer": "kVM_TurnTimeTimer {0}",
+		"kVM_WaitingTurnTimer": "kVM_WaitingTurnTimer {0}.",
+		"kVM_VoteCooldownTimer": "kVM_VoteCooldownTimer {0}",
+
+		"kVM_VoteForResetTitle": "kVM_VoteForResetTitle",
+		"kVM_VoteForResetTimer": "kVM_VoteForResetTimer {0}",
+
+		"kVMButtons_TakeTurn": "kVMButtons_TakeTurn",
+		"kVMButtons_EndTurn": "kVMButtons_EndTurn",
+		"kVMButtons_ChangeUsername": "kVMButtons_ChangeUsername",
+		"kVMButtons_Keyboard": "kVMButtons_Keyboard",
+		"KVMButtons_CtrlAltDel": "kVMButtons_CtrlAltDel",
+
+		"kVMButtons_VoteForReset": "kVMButtons_VoteForReset",
+		"kVMButtons_Screenshot": "kVMButtons_Screenshot",
+
+		"kQEMUMonitor": "kQEMUMonitor",
+		"kAdminVMButtons_PassVote": "kAdminVMButtons_PassVote",
+		"kAdminVMButtons_CancelVote": "kAdminVMButtons_CancelVote",
+
+		"kAdminVMButtons_Restore": "kAdminVMButtons_Restore",
+		"kAdminVMButtons_Reboot": "kAdminVMButtons_Reboot",
+		"kAdminVMButtons_ClearTurnQueue": "kAdminVMButtons_Clear Turn Queue",
+		"kAdminVMButtons_BypassTurn": "kAdminVMButtons_BypassTurn",
+		"kAdminVMButtons_IndefiniteTurn": "kAdminVMButtons_IndefiniteTurn",
+		"kAdminVMButtons_GhostTurnOn": "kAdminVMButtons_Ghost TurnOn",
+		"kAdminVMButtons_GhostTurnOff": "kAdminVMButtons_Ghost TurnOff",
+
+		"kAdminVMButtons_Ban": "kAdminVMButtons_Ban",
+		"kAdminVMButtons_Kick": "kAdminVMButtons_Kick",
+		"kAdminVMButtons_TempMute": "kAdminVMButtons_TempMute",
+		"kAdminVMButtons_IndefMute": "kAdminVMButtons_IndefMute",
+		"kAdminVMButtons_Unmute": "kAdminVMButtons_Unmute",
+		"kAdminVMButtons_GetIP": "kAdminVMButtons_GetIP",
+
+		"kVMPrompts_AdminChangeUsernamePrompt": "kVMPrompts_AdminChangeUsernamePrompt {0}",
+		"kVMPrompts_AdminRestoreVMPrompt": "kVMPrompts_AdminRestoreVMPrompt",
+		"kVMPrompts_EnterNewUsernamePrompt": "kVMPrompts_EnterNewUsernamePrompt",
+
+		"kError_UnexpectedDisconnection": "kError_UnexpectedDisconnection",
+		"kError_UsernameTaken": "kError_UsernameTaken",
+		"kError_UsernameInvalid": "kError_UsernameInvalid",
+		"kError_UsernameBlacklisted": "kError_UsernameBlacklisted",
+		"kError_IncorrectPassword": "kError_IncorrectPassword",
+
+		"kAccountModal_Verify": "kAccountModal_Verify",
+		"kAccountModal_AccountSettings": "kAccountModal_AccountSettings",
+		"kAccountModal_ResetPassword": "kAccountModal_ResetPassword",
+
+		"kAccountModal_NewPassword": "kAccountModal_NewPassword",
+		"kAccountModal_ConfirmNewPassword": "kAccountModal_ConfirmNewPassword",
+		"kAccountModal_CurrentPassword": "kAccountModal_CurrentPassword",
+		"kAccountModal_ConfirmPassword": "kAccountModal_ConfirmPassword",
+		"kAccountModal_HideFlag": "kAccountModal_HideFlag",
+
+		"kMissingCaptcha": "kMissingCaptcha",
+		"kPasswordsMustMatch": "kPasswordsMustMatch",
+		"kAccountModal_VerifyText": "kAccountModal_VerifyText {0}",
+		"kAccountModal_VerifyPasswordResetText": "kAccountModal_VerifyText {0}",
+		"kAccountModal_PasswordResetSuccess": "kAccountModal_PasswordResetSuccess",
+
+		"kNotLoggedIn": "kNotLoggedIn"
+	}
+}

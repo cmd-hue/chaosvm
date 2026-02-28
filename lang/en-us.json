@@ -66,7 +66,7 @@
 		"kAdminVMButtons_Ban": "Ban",
 		"kAdminVMButtons_Kick": "Kick",
 		"kAdminVMButtons_TempMute": "Temporary Mute",
-		"kAdminVMButtons_IndefMute": "Indefinite Mute",
+		"kAdminVMButtons_IndefMute": "Permanent Mute",
 		"kAdminVMButtons_Unmute": "Unmute",
 		"kAdminVMButtons_GetIP": "Get IP",
 

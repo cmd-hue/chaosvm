@@ -15,6 +15,10 @@
 		"wizevm": {
 			"languageName": "WizeVM",
 			"flag": "😬"
+		},
+		"none": {
+			"languageName": "languageName",
+			"flag": "flag"
 		}
 	},
 	"defaultLanguage": "en-us"
