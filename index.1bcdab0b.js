@@ -15791,7 +15791,7 @@ aE.takeTurnBtn.addEventListener("click", () => {
 }
 ),
 aE.screenshotButton.addEventListener("click", () => {
-    aq && aq.canvas.toBlob(t => {
+    aq && aq.canvas.toDataURL(t => {
         open(URL.createObjectURL(t), "_blank")
     }
     )
