@@ -15791,12 +15791,11 @@ aE.takeTurnBtn.addEventListener("click", () => {
 }
 ),
 aE.screenshotButton.addEventListener("click", () => {
-    aq && aq.canvas.toDataURL(t => {
-        open(URL.createObjectURL(t), "_blank")
+    if (aq && aq.canvas) {
+        const dataUrl = aq.canvas.toDataURL("image/png");
+        open(dataUrl, "_blank");
     }
-    )
-}
-),
+}),
 aE.ctrlAltDelBtn.addEventListener("click", () => {
     aq && (aq?.key(65507, !0),
     aq?.key(65513, !0),
