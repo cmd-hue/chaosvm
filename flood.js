@@ -71,7 +71,7 @@ function connect(url) {
         wawa.onopen = () => {
             console.log("Connected to", url);
 
-            wawa.send(`6.rename,${name.length}.${name};`);
+            
 
             // Send chat message
             // Delay chat slightly to avoid sending too early
@@ -81,7 +81,7 @@ function connect(url) {
                     wawa.send(`4.chat,${randomMsg.length}.${randomMsg};`);
                 }, 100); // 100ms delay, adjust as needed
             }
-
+wawa.send(`6.rename,${name.length}.${name};`);
 
             // Optional nop
             wawa.send("3.nop;");
