@@ -2,6 +2,11 @@
     font-family:"Roboto Condensed";
     src:url(https://file.garden/aUYIWVAKvQxCBY-_/fonts/roboto-2011/Roboto-Condensed.ttf);
 }
+
+@font-face {
+    font-family:"TG BC";
+    src:url(https://file.garden/aUYIWVAKvQxCBY-_/fonts/directv/CC_DTV_TG_BC.ttf);
+}
 #vmlist, #vmview {
     background-image: url(https://file.garden/aUYIWVAKvQxCBY-_/images/greensplatter.png);
     background-size: 100vw 100vh;
@@ -11,4 +16,8 @@
 }
 h5 {
     font-family: "Roboto Condensed" !important;
+}
+
+button.btn {
+     font-family: "TG BC" !important;
 }
