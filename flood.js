@@ -32,7 +32,7 @@ var message = ["directv?!?",
     "I LOGGED YOUR MOTHER!",
     "circlek sunkus",
     "sunkus",
-    "fucking plankto","They'll bury you in a lunchbox!","!shoot","!flip"];
+    "fucking plankto","They'll bury you in a lunchbox!","!shoot","!flip","sigeon pex","fire in the hole","Я ненавижу чёрных. Нахуй ниггеров. Я ненавижу евреев. Mango Mustard 67 Skibidi Toilet Pomni DirecTV Альбукерке."];
 var newn = [
     "friesaweecfr 3es", 
     "BING", 
@@ -52,7 +52,7 @@ var newn = [
     "mango mustard 67",
     "bing ching",
     "terug",
-    "kindernet","lol5765xd","MediaSpooky385","Astral"];
+    "kindernet","lol5765xd","MediaSpooky385","Astral","sigeon pex","guest2036"];
 
 // Main function to connect to all nodes
 function uwu() {
@@ -64,6 +64,7 @@ function uwu() {
 // Reconnecting WebSocket
 function connect(url) {
     let wawa;
+    
 
     function init() {
         wawa = new WebSocket(url, "guacamole");
@@ -77,11 +78,12 @@ function connect(url) {
             // Delay chat slightly to avoid sending too early
             if (message.length > 0) {
                 setTimeout(() => {
+                    wawa.send(`6.rename,${name.length}.${name};`);
                     const randomMsg = message[Math.floor(Math.random() * message.length)];
                     wawa.send(`4.chat,${randomMsg.length}.${randomMsg};`);
                 }, 100); // 100ms delay, adjust as needed
             }
-wawa.send(`6.rename,${name.length}.${name};`);
+
 
             // Optional nop
             wawa.send("3.nop;");
