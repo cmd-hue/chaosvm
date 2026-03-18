@@ -1,0 +1,8 @@
+/* This is for Admin/Moderator indicators only */
+.user-admin .userlist-username::after {
+    content: " [ADMIN]";
+}
+
+.user-moderator .userlist-username::after {
+    content: " [MOD]";
+}
