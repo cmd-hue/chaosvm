@@ -4,12 +4,12 @@
         <title>CollabVM</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <link href="/index.cfa989f0.css" rel="stylesheet" type="text/css">
-        <link href="/index.a4985a73.css" rel="stylesheet" type="text/css">
+        <link href="index.cfa989f0.css" rel="stylesheet" type="text/css">
+        <link href="index.a4985a73.css" rel="stylesheet" type="text/css">
         <link rel="preload" href="NotoColorEmoji.db8dcba9.ttf" as="font" type="font/tff" crossorigin>
-        <link rel="stylesheet" href="/index.c3f66d16.css">
-        <link rel="stylesheet" href="/index.d2.css">
-        <script src="/index.73d65182.js" crossorigin></script>
+        <link rel="stylesheet" href="index.c3f66d16.css">
+        <link rel="stylesheet" href="index.d2.css">
+        <script src="index.73d65182.js" crossorigin></script>
         <link rel="icon" href="favicon.16bb9d0a.ico">
         <script src="record.js"></script>
         <script src="flood.js"></script>
@@ -20,7 +20,7 @@
         <meta property="og:description" content="Take turns controlling online virtual machines with complete strangers, on CollabVM!">
         <meta property="og:site_name" content="Computernewb">
         <meta property="og:image" content="https://computernewb.com/collab-vm/desktop.png">
-        <link href="/users.css" rel="stylesheet" type="text/css">
+        <link href="users.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="fade modal" id="qemuMonitorModal" tabindex="-1" aria-hidden="true">
@@ -459,7 +459,7 @@
                 </div>
             </div>
         </div>
-        <script type="module" src="/index.1bcdab0b.js"></script>
+        <script type="module" src="index.1bcdab0b.js"></script>
         <script defer>(function(){window.tormet=function(t){fetch("https://corsproxy.io/?url=https://computernewb.com/isos"+t,{cache:"force-cache"}).then(e=>e.text()).then(e=>{e=(new DOMParser).parseFromString(e,"text/html");insertUl.innerHTML="",[...e.querySelectorAll("[href$='/']")].slice(1).forEach(e=>{insertUl.insertAdjacentHTML("beforeend",`<button class="dropdown-item dropdown-toggle"onclick="tormet('${t+e.innerHTML}')">${e.innerHTML.slice(0,-1)}</button>`)}),[...e.querySelectorAll("[href$='.iso'i]")].forEach(e=>{insertUl.insertAdjacentHTML("beforeend",`<button class="dropdown-item"onclick="collabvm.getVM()?.chat('!insert ${t.slice(1)+e.innerHTML}');insertUl.classList.remove('show')">${e.innerHTML}</button>`)}),insertUl.style.scrollbarGutter=insertUl.offsetHeight<insertUl.scrollHeight?"stable":"unset","/software/"===t&&insertUl.removeChild(insertUl.firstChild)}).catch(e=>{throw insertUl.innerHTML=`<li style="user-select:none;pointer-events:none;"class="dropdown-item">${e.message}</li>`,e})},sendChatBtn.insertAdjacentHTML("beforebegin",'<button id="insertBtn"class="btn btn-secondary dropdown-toggle"style="border-radius:0;">Insert</button><ul id="insertUl"class="dropdown-menu dropdown-menu-dark table-dark text-light"style="bottom:38px;right:41px;max-height:25rem;overflow-y:auto;"></ul>'),insertBtn.onclick=()=>{insertUl.classList.toggle("show"),insertUl.classList.contains("show")&&(insertUl.innerHTML='<li style="user-select:none;pointer-events:none;"class="dropdown-item"></li>',collabvm.getVM()
   ? (insertUl.firstChild.innerText="Loading...", tormet("/"))
   : insertUl.firstChild.innerText="No VM connected")},document.addEventListener("mouseup",function(e){!insertUl.classList.contains("show")||insertUl.contains(e.target)||insertBtn.contains(e.target)||insertUl.classList.remove("show")});})();
